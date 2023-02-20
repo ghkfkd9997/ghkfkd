@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="서버정보 - 화랑">
+<meta name="publisher" content="리니지 - 화랑">
+<meta name="author" content="리니지 - 화랑">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="description" content="게임,리니지,프리서버,사설서버,자유서버,리니지프리서버,프리서버구축,자유홍보,오크서버,아인서버,만두서버,강남서버">
+<meta name="keywords" content="게임,리니지,프리서버,사설서버,자유서버,리니지프리서버,프리서버구축,자유홍보,오크서버,아인서버,만두서버,강남서버">
+<meta property="og:title" content="리니지 - 화랑">
+<meta property="og:site_name" content="리니지 - 화랑">
+<meta property="og:author" content="리니지 - 화랑">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/meta-img.png">
+<meta property="og:description" content="게임,리니지,프리서버,사설서버,자유서버,리니지프리서버,프리서버구축,자유홍보,오크서버,아인서버,만두서버,강남서버">
+<meta property="og:url" content="https://ghkfkd90.com">
+<meta property="site" content="ghkfkd90.com">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>서버정보 - 화랑</title>
+<meta name="description" content="화랑">
+<link href="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/favicon.ico" rel="shortcut icon">
+<!-- Fonts -->
+<link href="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/css/all.css" rel="stylesheet" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
+
+<!-- CSS styles -->
+<link href="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/css/owl.carousel.min.css" rel="stylesheet" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
+
+
+<link href="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/css/style.min.css" rel="stylesheet">
+<!-- Custom color styles -->
+<link href="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/css/pink.css" rel="stylesheet" title="pink" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
+<link href="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/css/custom.css?v=1" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body oncontextmenu='return false'> 
+
+	<header id="header">
+		<div class="menu-wrap fixed">
+			<div class="nav-menu">
+				<div class="top-container">
+					<div class="row">
+						<div class="col-2 col-md-2">
+							<a href="index.html"  id="logo"> 
+								화랑							
+							</a>
+						</div>
+						<nav id="menu" class="col-8 col-md-8">
+							<div class="navigation">
+								<button class="menu-toggle">
+									<span class="icon"></span> <span class="icon"></span> <span class="icon"></span>
+								</button>
+						     	<ul class="main-menu">
+									<li class="menu-item">
+										<a href="index.html" class="goScroll">홈</a>
+									</li>
+									<li class="menu-item on">
+										<a href="server-info.html" class="goScroll">서버정보</a>
+									</li>
+									<li class="menu-item goParentScroll">
+										<a href="#" class="goScroll">고객센터</a>
+									</li>					
+									<li class="menu-item goParentScroll">
+										<a href="#" class="goScroll">다운로드</a>
+									</li>																		
+								</ul>
+
+							</div>
+						</nav>
+
+				
+						<div class="col-lg-2 col-md-4 download" style="top:10px;line-height: 52px;">
+									<button type="button" class=" btn-primary btn-lg" id="btn-download" onclick="location.href='#download'"
+								>다운로드</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  모바일 메뉴 -->
+		<div class="menu-wrap mobile fixed">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<a href="index.html"> <img class="svg logo-menu" src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/logo.png" alt="logo">
+						</a>
+					</div>
+					<div class="col-6">
+						<nav class="nav-menu">
+							<button id="nav-toggle" class="menu-toggle">
+								<span class="icon"></span> <span class="icon"></span> <span class="icon"></span>
+							</button>
+							<div class="main-menu">
+								<div class="menu-item">
+										<a href="index.html">홈</a>
+								</div>
+								<div class="menu-item ">
+										<a href="server-info.html">서버정보</a>
+								</div>
+								<div class="menu-item">
+									<a href="#serviceCenter" onclick="goClose()">고객센터</a>
+								</div>
+								<div class="menu-item">
+									<a href="#download" onclick="goClose()">다운로드</a>
+								</div>
+								
+								<div>									
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="contentScroll" style="display: none;"><div class="cnt01"></div></div>
+	<div  style="background: #fff; height: 80px;">&nbsp;11</div>
+
+	<section class="services help pt-4  mt-5" style="background: #fff;">
+		<div class="container">
+			<div class="service-wrap">
+				
+				<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12">		
+		<img alt="서버정보" data-original-height="1373" data-original-width="1903" style="width: 100%;"
+			src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/hw2.jpg">
+	</div>	
+
+
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="help-container">
+							<a href="#" onclick="return false;" class="help-item">
+								<div class="img" style="line-height: 145px;text-align: center;">
+									<img src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/main_7.png">
+								</div>
+								<div class="inform">
+									<div class="title">서버 소개</div>
+									<div class="description">2.0버전 반놀자서버 1주일 유지를 목표로 하며,
+								서버상황에 따라 유동적일수있습니다.</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="help-container">
+							<a href="#" onclick="return false;" class="help-item">
+								<div class="img" style="line-height: 145px;text-align: center;">
+									<img src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/main_7.png">
+								</div>
+								<div class="inform">
+									<div class="title">사냥터 간소화</div>
+									<div class="description">사냥터 간소화로 인벤에 사냥터이동 이외엔 몹이 젠되지 않습니다.</div>
+								</div>
+							</a>
+						</div>
+					</div>	
+					
+					
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="help-container">
+							<a href="#" onclick="return false;" class="help-item">
+								<div class="img" style="line-height: 145px;text-align: center;">
+									<img src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/main_7.png">
+								</div>
+								<div class="inform">
+									<div class="title">쉬운 플레이</div>
+									<div class="description">자동사냥 무한물약 무료 풀 지원으로 정착하기 쉽습니다.</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="help-container">
+							<a href="#"  onclick="return false;" class="help-item">
+								<div class="img" style="line-height: 145px;text-align: center;">
+									<img src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/main_7.png">
+								</div>
+								<div class="inform">
+									<div class="title">화랑만의 차별성</div>
+									<div class="description">신화변신 시스템으로 지루하지않으며, 저희서버만에 스킬구현으로 타섭과는 
+										차별화된 전투를 하실 수 있습니다.</div>
+								</div>
+							</a>
+						</div>
+					</div>	
+
+			
+
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="help-container">
+							<a href="#" onclick="return false;" class="help-item">
+								<div class="img" style="line-height: 145px;text-align: center;">
+									<img src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/main_7.png">
+								</div>
+								<div class="inform">
+									<div class="title">자동 사냥 시스템</div>
+									<div class="description">자동사냥시스템으로 재료 및 장비 수급이 되며, 직장인분들도 쉽게 따라가실 수 있습니다.</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="help-container">
+							<a href="#"  onclick="return false;" class="help-item">
+								<div class="img" style="line-height: 145px;text-align: center;">
+									<img src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/main_7.png">
+								</div>
+								<div class="inform">
+									<div class="title">간단한 장비세팅</div>
+									<div class="description">복잡한 장비시스템 X <br>각 등급별 케릭장비로 간단하게 세팅가능</div>
+								</div>
+							</a>
+						</div>
+					</div>	
+
+
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="help-container">
+							<a href="#" onclick="return false;" class="help-item">
+								<div class="img" style="line-height: 145px;text-align: center;">
+									<img src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/main_7.png">
+								</div>
+								<div class="inform">
+									<div class="title">각종 편의기능</div>
+									<div class="description">무한물약,원격거래,사냥터 및 보스이동,자동사냥,자동칼질,자동낚시 등</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-sm-12 col-md-12 col-lg-6">
+						<div class="help-container">
+							<a href="#"  onclick="return false;" class="help-item">
+								<div class="img" style="line-height: 145px;text-align: center;">
+									<img src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/main_7.png">
+								</div>
+								<div class="inform">
+									<div class="title">특화 컨텐츠</div>
+									<div class="description">월드보스,익명데스매치,무작위 팀 데스매치 등</div>
+								</div>
+							</a>
+						</div>
+					</div>	
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+<div class="contentScroll" style="display: none;"><div class="cnt02"></div></div>
+<div  id="serviceCenter">&nbsp;</div>
+
+  <section class="services help pt-4 pb-80 cpupath contentScroll" style="background-color: #f6f6f6;">
+    <div class="container cnt03">
+      <div class="service-wrap">
+      <div style="height:120px;" >&nbsp;</div>
+
+<div class="alert alert-primary alert-dismissable">
+          <div class="alertwrapper clearfix">
+            <button aria-hidden="true" class="close" data-dismiss="alert" type="button" style="display: none;">×</button>
+            <div class="alertcontent"><br>
+                    <h4 class="fw-bold mb-0"><div style="color: #3056a2; font-size: 1.2rem; text-align: center;"><b>고객센터</b></div></h4><br>
+                    <h4 class="fw-bold mb-0"><div style="color: #3056a2; font-size: 1.0rem; text-align: center;">아래에서 고객센터를 이용하실 수 있습니다</div></h4><br>
+            </div>
+          </div>
+        </div>
+
+		</div>
+
+<div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="card h-100 help-container">
+                <a href="https://t.me/ghkfkd90"><img alt="텔레그램 상담채널" 
+					class="card-img-top" src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/telegram_big.png"></a>
+                <div class="card-body text-center">
+                    <h4 class="card-title">
+                        </h4><h4 class="fw-bold mb-0"><div style="color: #212529; font-size: 1.3rem; text-align: center;"><b>텔레그램 상담채널</b></div></h4><br>
+                      <a class="btn btn-info gotype1" href="https://t.me/ghkfkd90" role="button">바로가기</a><br><br>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
+            <div class="card h-100 help-container">
+                <a href="https://open.kakao.com/o/soyQemUe">
+					<img alt="카카오톡 상담채널" class="card-img-top" src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/kakao.png"></a>
+                <div class="card-body text-center">
+                    <h4 class="card-title">
+                        </h4><h4 class="fw-bold mb-0"><div style="color: #212529; font-size: 1.3rem; text-align: center;"><b>카카오톡 상담채널</b></div></h4><br>
+                      <a class="btn btn-warning gotype2" href="https://open.kakao.com/o/soyQemUe" role="button">바로가기</a><br><br>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+		<br><br>
+    
+    
+      </div>
+    </div>
+  </section>
+
+
+
+<div  id="download">&nbsp;</div>	
+	<section class="services sec-normal motpath sec-bg4 contentScroll"  id="download-section"   style="padding-top: 0;">
+		<div class="container cnt04" >
+			<div class="service-wrap" id="download-div">
+					<div style="height:120px;" >&nbsp;</div>
+				<div class="row">
+					<div class="col-sm-12 text-center">
+			<div>
+				<img alt="화랑"  data-original-height="1373" style="margin-bottom: 20px;"
+			 data-original-width="1200"
+			 src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/hw3.jpg">
+			</div>						
+
+<div class="inform_area" style="background-color: #fefbf5; border: 1px solid rgb(229, 217, 208); 
+box-sizing: border-box; font-size: 13px; letter-spacing: 0px; line-height: 1.69; margin: 10px 0px 0px; padding: 25px; text-indent: 0px;">
+
+<span style="color: #c38b61; font-size: 1.1rem; text-align: center;"><b>다운로드시 필독사항</b></span><br><br>
+<span style="color: #212529; font-size: 0.9rem; text-align: center;">- 구글 로그인 후 다운로드를 진행 해주세요</span><br>
+<span style="color: #212529; font-size: 0.9rem; text-align: center;">- WINDOWS DEFFENDER를 비활성화 해주시기 바랍니다.</span><br>
+<span style="color: #212529; font-size: 0.9rem; text-align: center;">- 타서버 접속 이력이 있는 경우 클라이언트 삭제 후 재 설치가 필요합니다.</span><br>
+<span style="color: #212529; font-size: 0.9rem; text-align: center;">- 게임 핵 또는 치트엔진 사용 시 접속 불가 또는 튕김 현상이 발생합니다.</span><br>
+<span style="color: #212529; font-size: 0.9rem; text-align: center;">- 접속 오류 발생 시 고객센터 원격 제어 서비스를 요청하시기 바랍니다.</span><br></div>
+
+<br>
+
+<div style="margin-bottom: 20px;">
+<a href="https://drive.google.com/file/d/1C0qVuTVCF1M5xkKQuZfcnQ6Udbq73swu/view?usp=share_link" target="_blank">
+	<img alt="다운로드1"  data-original-height="1373" data-original-width="1903" 
+	src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/hw4.jpg">
+</a>
+</div>
+
+<div style="margin-bottom: 20px;">
+<a href="https://drive.google.com/file/d/1wXf7rPVoTS7MkYmStKZIC1P4-BUzvwSA/view?usp=share_link" target="_blank">
+	<img alt="다운로드2"  data-original-height="1373" data-original-width="1903" 
+	src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/hw5.jpg">
+</a>
+</div>
+
+<div style="margin-bottom: 20px;">
+<a href="https://drive.google.com/file/d/1PWLgFicCOsHwQILWjQAxEWmajVmhRKZ2/view?usp=share_link" target="_blank">
+	<img alt="다운로드3"  data-original-height="1373" data-original-width="1903" 
+	src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/images/hw6.jpg">
+</a>
+</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+
+
+	
+	<footer class="footer">		
+			<div class="container">
+				<div class="footer-top">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 text-center">
+							<div class="heading">COPYRIGHT Ⓒ 화랑 ALL RIGHTS RESERVED.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    </footer>
+
+
+	<a id="topBtn" href="#"  style="display: none;">Top</a>
+
+	<!-- Javascript -->
+	<script src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/js/jquery.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/js/bootstrap.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/js/slick.min.js"></script> 
+	<script defer src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/js/owl.carousel.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/js/scripts.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/js/custom.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/gh/dlwodyd4013/ghkfkd90@v1.0.0/asset/js/scroll-menu.js"></script>
+
+
+</body>
+</html>
